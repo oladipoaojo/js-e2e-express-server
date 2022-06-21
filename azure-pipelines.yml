@@ -69,15 +69,4 @@ stages:
               InlineScript: |
                 npm install
                 npm run build --if-present
-                {
-  "name": "Dipo-package",
-  "description": ESLint",
-  "version": "1.0.0",
-  …
-  "scripts": {
-    "lint": "eslint src --ext .ts",
-    "lint:fix": "npm run lint -- --fix",
-    "test": "run lint && npm run test:run",
-    "test:run": "jest"
-  }
-}
+                
